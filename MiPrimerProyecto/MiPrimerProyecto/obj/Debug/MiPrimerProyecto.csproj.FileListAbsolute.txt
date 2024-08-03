@@ -1,0 +1,2 @@
+C:\Users\jenni\OneDrive\Desktop\Progra-I-2024\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\MiPrimerProyecto.csproj.AssemblyReference.cache
+C:\Users\jenni\OneDrive\Desktop\Progra-I-2024\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\MiPrimerProyecto.csproj.CoreCompileInputs.cache
