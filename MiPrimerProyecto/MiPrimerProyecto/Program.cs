@@ -8,29 +8,24 @@ namespace MiPrimerProyecto
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-
-            Console.Write("Num1:");
-            sbyte num1 = sbyte.Parse(Console.ReadLine());
+        static void Main(string[] args) {
             Boolean comprobar = true;
-            Console.WriteLine("El valor es: {0}", comprobar);
+            Console.WriteLine("El valor es:{0}");
+            //Prioridad de los peradores aritmeticos.
+            //Se pone el sufijo m para la division con decimales.
+            decimal respuesta = 5 + 8 - 2 * 4 + 1; //14.75 valor incorrecto 11.5 -> Valor correcto
+            Console.WriteLine("La respuesta es:{0}", respuesta);
 
-            Console.Write("Num2:");
-            sbyte Num2 = sbyte.Parse(Console.ReadLine());
-            Console.Write("Nombre:");
+            Console.WriteLine("Nombre:");
             string nombre = Console.ReadLine();
 
-            int suma = Num1 + Num2;
-
-            Console.WriteLine("La suma de {0} + {1} = {2}", num1, Num2, suma);
             Console.WriteLine("Hola {0} bienvenido", nombre);
 
             DateTime fechaActual = new DateTime();
             fechaActual = DateTime.Now;
             Console.WriteLine("La fecha actual es: {0}", fechaActual);
+            Console.WriteLine("La division de 5/4 es {0}", 5 / 4);
             //Pausa.
             Console.ReadLine();
-
-    }
+        }
 }
