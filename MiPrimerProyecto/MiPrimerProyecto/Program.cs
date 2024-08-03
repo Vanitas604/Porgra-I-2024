@@ -10,10 +10,8 @@ namespace MiPrimerProyecto
     {
         static void Main(string[] args) {
             //Prioridad de los operadores aritmeticos.
-            //Se pone el sufijo m para la division con decimales 
-            decimal respuesta = 5 + 8 - 2 * 5 / 4m + 1; //14.75 valor incorrecto; 11.75 -> Valor correcto
-            Console.WriteLine("La respuesta es: {0}, respuesta");
             //ejercicio de obtener la nota final de la materia de Programacion I.
+           
             Console.Write("Lab1:");
             double lab1 = double.Parse(Console.ReadLine()); //8
 
