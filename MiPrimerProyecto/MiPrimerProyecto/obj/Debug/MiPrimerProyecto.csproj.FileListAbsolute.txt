@@ -1,2 +1,7 @@
 C:\Users\jenni\OneDrive\Desktop\Progra-I-2024\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\MiPrimerProyecto.csproj.AssemblyReference.cache
 C:\Users\jenni\OneDrive\Desktop\Progra-I-2024\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\MiPrimerProyecto.csproj.CoreCompileInputs.cache
+C:\Users\jenni\OneDrive\Desktop\Progra-I-2024\MiPrimerProyecto\MiPrimerProyecto\bin\Debug\MiPrimerProyecto.exe.config
+C:\Users\jenni\OneDrive\Desktop\Progra-I-2024\MiPrimerProyecto\MiPrimerProyecto\bin\Debug\MiPrimerProyecto.exe
+C:\Users\jenni\OneDrive\Desktop\Progra-I-2024\MiPrimerProyecto\MiPrimerProyecto\bin\Debug\MiPrimerProyecto.pdb
+C:\Users\jenni\OneDrive\Desktop\Progra-I-2024\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\MiPrimerProyecto.exe
+C:\Users\jenni\OneDrive\Desktop\Progra-I-2024\MiPrimerProyecto\MiPrimerProyecto\obj\Debug\MiPrimerProyecto.pdb
