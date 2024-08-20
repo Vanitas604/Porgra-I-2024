@@ -8,33 +8,28 @@ namespace MiPrimerProyecto {
     class Program {
         static void Main(string[] args) {
 
-            //Uso de matrices. Calcular el suelo de una persona.
-            double[,] matriz = new double[,] {
-                {0.01,   487.6,  0, 0},
-                {487.61, 642.85, 10,17.48},
-                {642.86, 915.81, 10,32.70},
-                {915.82, 2058.67,20,60.00},
-                {2058.68,9999999,30,288.57},
-            };
-            Console.Write("Sueldo: ");
-            double sueldo = double.Parse(Console.ReadLine()),
-                afp = sueldo * 6.25 / 100,
-                isss = sueldo * 3 / 100;
-                isss = sueldo * 3 / 100,
-                isr = 0;
-            sueldo -= afp;
+            //determinar si cada numero de la serie es primo.
 
-            double isr = 0;
-            for (int i = 0; i < 5; i++) {
-                if (sueldo >= matriz[i, 0] && sueldo <= matriz[i, 1]) {
-                    isr = (sueldo - (matriz[i, 0] - 0.01)) * matriz[i, 2] / 100 + matriz[i, 3];
+            int[] serie = new int[] { 5, 9, 4, 6, 3, 2, 7, 11, 15, 17, 21 };
+            foreach (int num in serie) {
+                int i = 1,
+                    n = 0;
+                while (i <= num && n <= 2) {
+                    if (num % i == 0) {
+                        n++;//n=n+1
+                    }
+                    i++; //i=i+1
                 }
+                Console.WriteLine("EL numero {0} {1}", num, n <= 2 ? "es primo" : "NO es primo");
             }
-            sueldo -= isss;
-            sueldo -= isr;
-            Console.WriteLine("Sueldo Neto: {0}, AFP: {1}, ISSS: {2}, ISR: {3}", Math.Round(sueldo, 2), afp, isss, Math.Round(isr, 2));
-            
+            //Uso de funciones...
+            Console.WriteLine("La suma de 10+5={0}", suma());
+
             Console.ReadLine();
+        }
+        static int suma(){
+            int respuesta = 10 + 5;
+            return respuesta;
         }
     }
 }
