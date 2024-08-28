@@ -9,7 +9,7 @@ namespace ConsoleApp1
 {
     using System;
 
-    namespace ConsoleApp1
+    namespace MiPrimerProyecto
     {
         class Program
         {
