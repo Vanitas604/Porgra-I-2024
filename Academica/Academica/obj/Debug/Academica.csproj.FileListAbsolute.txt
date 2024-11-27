@@ -1,0 +1,15 @@
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\bin\Debug\db_academica.mdf
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\bin\Debug\db_academica_log.ldf
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\bin\Debug\Academica.exe.config
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\bin\Debug\Academica.exe
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\bin\Debug\Academica.pdb
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\obj\Debug\Academica.csproj.AssemblyReference.cache
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\obj\Debug\Academica.Docente.resources
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\obj\Debug\Academica.Form1.resources
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\obj\Debug\Academica.Materia.resources
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\obj\Debug\Academica.Principal.resources
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\obj\Debug\Academica.Properties.Resources.resources
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\obj\Debug\Academica.csproj.GenerateResource.cache
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\obj\Debug\Academica.csproj.CoreCompileInputs.cache
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\obj\Debug\Academica.exe
+C:\Users\jenni\Desktop\Progra-I-2024.git\Academica\Academica\obj\Debug\Academica.pdb
