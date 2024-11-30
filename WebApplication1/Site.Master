@@ -1,0 +1,105 @@
+﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Site.master.vb" Inherits="WebApplication1.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Adopta un Amigo</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <!-- Permitir incluir estilos específicos de cada página -->
+    <asp:ContentPlaceHolder ID="headContent" runat="server"></asp:ContentPlaceHolder>
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <!-- Estilo para el color de fondo y barra de navegación -->
+    <style>
+        body {
+            background-color: #9addfc; /* Color de fondo */
+        }
+
+        /* Estilo para la barra de navegación */
+        .navbar {
+            background-color: #343a40; /* Color de fondo de la barra de navegación */
+        }
+
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: #ffffff !important; /* Color blanco para los enlaces de la barra */
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #28a745 !important; /* Verde en el hover de los enlaces */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1; /* Color de fondo del pie de página */
+            color: #333; /* Color del texto en el pie de página */
+        }
+
+        /* Ajuste para los contenedores principales */
+        .container {
+            margin-top: 80px; /* Espacio para la barra de navegación fija */
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%-- Framework Scripts --%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+            </Scripts>
+        </asp:ScriptManager>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" runat="server" href="~/">Adopta un Amigo</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Mascotas.aspx">Mascotas Disponibles</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Adopciones.aspx">Formulario de Adopción</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Agregar_Mascotas.aspx">Agregar Mascota</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Importancia_amigo.aspx">Importancia de un amigo</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Contacto.aspx">Contactos</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Refugios.aspx">Refugios Relacionados</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Contenido principal de la página -->
+        <div class="container body-content" style="margin-top: 80px;"> <!-- Ajustado margen para no cubrir con la barra -->
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Adopta un Amigo</p>
+            </footer>
+        </div>
+    </form>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/Scripts/bootstrap.js") %>
+    </asp:PlaceHolder>
+</body>
+</html>
+
+
+
+
+
+
